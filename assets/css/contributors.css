@@ -1,0 +1,30 @@
+#copy {
+	display:none;
+}
+
+.email-responsive  {
+	width: 515px;  
+	position: absolute; 
+	top: 50px; 
+	right: 50px;
+	margin-top: -50px;
+}
+
+@media screen and (max-width: 1534px) {
+	.email-responsive {
+		margin-top: 225px;
+	}
+	.donate-responsive {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.email-responsive {
+		position: inherit;
+		margin-top: 0px;
+	}
+	.donate-responsive {
+		margin-top: 0px;
+	}
+}
